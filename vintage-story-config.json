@@ -1,0 +1,365 @@
+[
+    {
+        "DisplayName": "Port",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "$ServerPort",
+        "InputType": "number",
+        "Hidden": true,
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.Port",
+        "IncludeInCommandLine": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Make Server Public",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If enabled, the server will be added to the public server listing",
+        "Keywords": "public",
+        "FieldName": "AdvertiseServer",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.AdvertiseServer",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "True": "true",
+            "False": "false"
+        }
+    },
+    {
+        "DisplayName": "Server Name",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Server name visible in the server list",
+        "Keywords": "server,name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.ServerName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Vintage Story Server - Powered by AMP",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Description",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Description for your server.",
+        "Keywords": "description",
+        "FieldName": "ServerDescription",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.ServerDescription",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Vintage Story Server - Powered by AMP",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server URL",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "url,link",
+        "FieldName": "ServerUrl",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.ServerUrl",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "https://titanecho.xyz",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "LevelSeed",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "url,link",
+        "FieldName": "LevelSeed",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.LevelSeed",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "PoweredByAMP",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Welcome Message",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Welcome message when players join the server. Placeholder {0} will be replaced with the player's nickname",
+        "Keywords": "welcome,message,motd",
+        "FieldName": "WelcomeMessage",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.WelcomeMessage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Welcome, {0}, may you survive well and prosper",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "WorldName",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "WorldName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.WorldName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "world",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "StartupCommands",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "StartupCommands",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.StartupCommands",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "/time calendarspeedmul 0.267",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Player Limit",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Maximum number of players that may connect to the server",
+        "Keywords": "players,limit",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.MaxClients",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "16",
+        "Suffix": "players",
+        "EnumValues": {},
+        "MinValue": "1"
+    },
+    {
+        "DisplayName": "worldClimate",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "climate",
+        "FieldName": "worldClimate",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.worldClimate",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "realistic",
+        "EnumValues": {
+            "realistic": "realistic",
+            "patchy": "patchy"
+        }
+    },
+    {
+        "DisplayName": "AllowFallingBlocks",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "climate",
+        "FieldName": "AllowFallingBlocks",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.AllowFallingBlocks",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "true",
+            "false": "false"
+        }
+    },
+    {
+        "DisplayName": "deathPunishment",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "death",
+        "FieldName": "deathPunishment",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.deathPunishment",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "keep",
+        "EnumValues": {
+            "keep": "keep",
+            "drop": "drop"
+        }
+    },
+    {
+        "DisplayName": "Whitelist Mode",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets whether the whitelist is enabled, meaning only whitelisted players can join the server. Default = enabled. Only for versions 1.20 and above",
+        "Keywords": "whitelist,mode,WhitelistMode",
+        "FieldName": "WhitelistMode",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.WhitelistMode",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "0",
+        "EnumValues": {
+            "0": "Default",
+            "1": "Off",
+            "2": "On"
+        }
+    },
+    {
+        "DisplayName": "Enable Whitelist (Legacy)",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If enabled, only whitelisted players can join the server. Only for versions 1.19 and below",
+        "Keywords": "whitelist",
+        "FieldName": "OnlyWhitelisted",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.OnlyWhitelisted",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "True": "true",
+            "False": "false"
+        }
+    },
+    {
+        "DisplayName": "Allow PvP",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If enabled, players can hit other players",
+        "Keywords": "pvp",
+        "FieldName": "AllowPvP",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.AllowPvP",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "True": "true",
+            "False": "false"
+        }
+    },
+    {
+        "DisplayName": "AllowFireSpread",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "fire",
+        "FieldName": "AllowFireSpread",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.AllowFireSpread",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "True": "true",
+            "False": "false"
+        }
+    },
+    {
+        "DisplayName": "Enable UPnP",
+        "Category": "Vintage Story:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If enabled, the server will attempt to configure automatic port forwarding on a compatible router",
+        "Keywords": "upnp",
+        "FieldName": "Upnp",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "$.Upnp",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "True": "true",
+            "False": "false"
+        }
+    },
+    {
+        "DisplayName": "Server Release Stream",
+        "Category": "Updates",
+        "Subcategory": "Server Updates:build:-1",
+        "Description": "Sets the server release stream from which to install the latest server version (for Stable and Unstable only), unless a specific version is specified under Server Version. Update the server after changing this setting",
+        "Keywords": "server,release,stream",
+        "FieldName": "ServerReleaseStream",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerReleaseStream",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "stable",
+        "EnumValues": {
+            "stable": "Stable (default)",
+            "unstable": "Unstable",
+            "pre": "Preview"
+        }
+    },
+    {
+        "DisplayName": "Server Version",
+        "Category": "Updates",
+        "Subcategory": "Server Updates:build:-1",
+        "Description": "Sets the server version to install. Empty = latest version if Stable or Unstable is selected under Server Release Stream. For Preview, a version identifier must be specified. Minimum 1.18.8. For Linux ARM64, a corresponding [ARM64 experimental server version](https://github.com/anegostudios/VintagestoryServerArm64) must exist. Update the server after changing this setting",
+        "Keywords": "server,version",
+        "FieldName": "ServerVersion",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerVersion",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "1.18.15 | 1.20.0-rc.1 | 1.20.0-pre.13",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Download Source",
+        "Category": "Updates",
+        "Subcategory": "Server Updates:build:-1",
+        "Description": "Sets the source location to download the server from. Use the Alternative mirror if the Default CDN is not working. NOTE: Update the server after changing this setting!",
+        "Keywords": "server,download,source,cdn,mirror",
+        "FieldName": "ServerDownloadSource",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerDownloadSource",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "cdn.vintagestory.at/gamefiles",
+        "EnumValues": {
+            "cdn.vintagestory.at/gamefiles": "Default CDN",
+            "account.vintagestory.at/files": "Alternative mirror"
+        }
+    },
+    {
+        "DisplayName": "Dotnet Release Stream",
+        "Category": "Updates",
+        "Subcategory": "Server Updates:build:-1",
+        "Description": "Sets the .NET release stream from which to install the latest .NET SDK version, unless a specific version is specified under Dotnet Version. Use 8.0 for Vintage Story v1.21.0+. Update the server after changing this setting",
+        "Keywords": "dotnet,release,stream",
+        "FieldName": "DotnetRelease",
+        "InputType": "enum",
+        "ParamFieldName": "DotnetRelease",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "8.0",
+        "EnumValues": {
+            "8.0": "8.0 (default)",
+            "7.0": "7.0"
+        }
+    },
+    {
+        "DisplayName": "Dotnet Version",
+        "Category": "Updates",
+        "Subcategory": "Server Updates:build:-1",
+        "Description": "Sets the .NET SDK [7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) or [8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) version to install. Empty = latest version for the release stream specified under Dotnet Release Stream. Use an 8.0 version for Vintage Story v1.21.0+. Update the server after changing this setting",
+        "Keywords": "dotnet,version",
+        "FieldName": "DotnetSDKVersion",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "DotnetSDKVersion",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "8.0.316",
+        "EnumValues": {}
+    }
+]
